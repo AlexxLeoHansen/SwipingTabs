@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabsSwipe</string>
+    <string name="s_name">Your name is: </string>
+    <string name="s_email">Your email is: </string>
+    <string name="s_phone">Your phone is:</string>
+    <string name="rb1">gmail.com</string>
+    <string name="rb2">hotmail.com</string>
+</resources>

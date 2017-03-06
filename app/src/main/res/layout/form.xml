@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_marginTop="96dp"
+        android:id="@+id/t_name"
+        android:hint="What is your name?"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/t_email"
+        android:hint="email without @"
+        android:layout_below="@+id/t_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:text="@string/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:layout_below="@+id/t_email"
+            android:layout_alignLeft="@+id/t_email"
+            android:layout_alignStart="@+id/t_email"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_weight="1"
+            android:layout_below="@+id/t_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RadioGroup>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:id="@+id/floatingActionButton"
+        android:onClick="commitForm"
+        app:elevation="13dp"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/t_phone"
+        android:hint="555-555-555"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/floatingActionButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
