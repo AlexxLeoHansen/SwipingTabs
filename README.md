@@ -2,7 +2,7 @@
 Fill the form out and swipe between two screens using Tabs.
 
 The app is a brief example of how ViewPager and PageAdapter work. This is the easiest way of 
-implement Tabs and different screens in your app.
+implement Tabs and different screens in your app. I set two kind of tabs just to test them.
 
 We avoid to use Fragments here because I reckon it is a higher level than PageAdapters and 
 it was easier for me to understand first how PageAdapter and ViewPager work.
