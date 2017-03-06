@@ -12,7 +12,9 @@ Fill the form and press the floating button below. Then, a Snackbar will appear
 verifying that the data was dumped into the second screen.
 
 First Screen: Form
+
 ![swipingtabs0](https://cloud.githubusercontent.com/assets/19878151/23613037/0504c9a0-027e-11e7-99f7-53ceacc87842.png)
 
 Second Screen: Show Results
+
 ![swipingtabs1](https://cloud.githubusercontent.com/assets/19878151/23613038/0505970e-027e-11e7-8bea-3035ed934ef0.png)
